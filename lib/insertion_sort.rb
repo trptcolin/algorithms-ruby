@@ -14,13 +14,14 @@ class InsertionSorter
     elements[i + 1] = element_to_be_inserted
   end
 
-  private
   def more_shifts_necessary?(elements, element_to_be_inserted, i)
     i >= 0 and elements[i] > element_to_be_inserted
   end
+  private :more_shifts_necessary?
 
   def shift_right(elements, i)
     elements[i + 1] = elements[i]
   end
+  private :shift_right
 end
 
