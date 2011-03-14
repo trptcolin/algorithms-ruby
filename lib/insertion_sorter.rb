@@ -3,7 +3,8 @@ class InsertionSorter
     elements.each_with_index do |element, index|
       insert_element_into_sorted_left_side(elements, element, index - 1)
     end
-    return elements
+
+    elements
   end
 
   def insert_element_into_sorted_left_side(elements, element_to_be_inserted, i)

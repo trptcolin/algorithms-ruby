@@ -1,6 +1,7 @@
 class MergeSorter
   def sort(elements)
     return elements if elements.size < 2
+
     midpoint_index = elements.size / 2
     left = elements[0...midpoint_index]
     right = elements[midpoint_index..-1]
