@@ -1,7 +1,7 @@
-require 'merge_sort'
+require 'merge_sorter'
 
 describe MergeSorter do
-  it_behaves_like "a sort"
+  it_behaves_like "a sorter"
 
   describe "merge" do
     it "empty lists" do

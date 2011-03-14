@@ -1,7 +1,7 @@
-require 'insertion_sort'
+require 'insertion_sorter'
 
 describe InsertionSorter do
-  it_behaves_like "a sort"
+  it_behaves_like "a sorter"
 
   describe "insert_element_into_sorted_left_side" do
     it "for a short list with no shifts" do

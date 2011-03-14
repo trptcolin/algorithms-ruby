@@ -1,4 +1,4 @@
-shared_examples_for "a sort" do
+shared_examples_for "a sorter" do
   it "for an empty list" do
     subject.sort([]).should == []
   end
